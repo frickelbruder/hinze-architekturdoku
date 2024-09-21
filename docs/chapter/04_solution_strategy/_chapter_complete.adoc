@@ -1,0 +1,5 @@
+= Vorgehensweise
+
+include::_01_projekte.adoc[leveloffset=+1]
+include::_02_zeitplan.adoc[leveloffset=+1]
+

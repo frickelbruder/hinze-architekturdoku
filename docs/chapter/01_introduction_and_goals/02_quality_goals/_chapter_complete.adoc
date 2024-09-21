@@ -1,0 +1,16 @@
+= Qualitätssziele
+
+Im Folgenden sind die nach ISO 25010 definierten und in diesem Projekt zu erreichenden Qualitätsziele ihrer Priorität nach geordnet dargestellt.
+
+[cols="12%,28%,60%"]
+|===
+|Priorität |Qualitätsziel |Beschreibung
+
+| 1
+| 
+| 
+
+
+|===
+
+<<<

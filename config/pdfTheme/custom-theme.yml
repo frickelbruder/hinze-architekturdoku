@@ -1,0 +1,223 @@
+q:
+  color: #ff005e
+  text_color: #000000
+
+font:
+  catalog:
+    Ubuntu:
+      light: ubuntu-light.ttf
+      light_italic: ubuntu-light_italic.ttf
+      normal: ubuntu-normal.ttf
+      italic: ubuntu-normal_italic.ttf
+      semi_bold: ubuntu-semibold.ttf
+      semi_bold_italic: ubuntu-semibold_italic.ttf
+      bold: ubuntu-bold.ttf
+      bold_italic: ubuntu-bold_italic.ttf
+    M+ 1mn:
+      normal: mplus1mn-regular-ascii-conums.ttf
+      bold: mplus1mn-bold-ascii.ttf
+      italic: mplus1mn-italic-ascii.ttf
+      bold_italic: mplus1mn-bold_italic-ascii.ttf
+    M+ 1p Fallback:
+      normal: mplus1p-regular-fallback.ttf
+      bold: mplus1p-regular-fallback.ttf
+      italic: mplus1p-regular-fallback.ttf
+      bold_italic: mplus1p-regular-fallback.ttf
+    Noto Emoji:
+      normal: noto.ttf
+  fallbacks:
+    - M+ 1mn
+    - Noto Emoji
+base:
+  font:
+    family: Ubuntu
+    style: normal
+    color: $q_text_color
+  line:
+    height_length: 17
+    height: $base_line_height_length / $base_font_size
+
+page:
+  layout: portrait
+  margin: [1.15in, 1.1in, 1in, 1.1in]
+  size: A4
+
+title-page:
+  margin: [0in, 0in, 0in, 0in]
+  align: right
+  title:
+    top: 40%
+    font:
+      style: bold
+      size: 33
+    line:
+      height: 1
+  subtitle:
+    font:
+      size: 14
+      style: semi_bold
+      color: $q_color
+    text:
+      transform: uppercase
+    margin:
+      top: 2
+  authors:
+    display: none
+  logo:
+    display: none
+  revision:
+    display: none
+
+toc:
+  font:
+    color: #223636
+  line:
+    height: 1.7
+  title:
+    font:
+      style: semi_bold
+      size: floor($base_font_size * 2)
+      color: $q_color
+
+code:
+  font:
+    family: M+ 1mn
+  background:
+    color: #f5f5f5
+  border:
+    color: #ababab
+
+heading:
+  font:
+    style: semi_bold
+    color: $q_color
+  line:
+    height: 1.2
+  margin:
+    top: 16
+    bottom: 12
+  h1:
+    font:
+      size: floor($base_font_size * 2)
+  h2:
+    font:
+      size: floor($base_font_size * 1.75)
+  h3:
+    font:
+      size: round($base_font_size * 1.6)
+  h4:
+    font:
+      size: round($base_font_size * 1.45)
+    margin:
+      bottom: 4
+  h5:
+    font:
+      size: round($base_font_size * 1.25)
+    margin:
+      bottom: 4
+  h6:
+    font:
+      size: round($base_font_size * 1.15)
+    margin:
+      bottom: 4
+
+link:
+  font:
+    style: semi_bold
+    color: $q_text_color
+  text-decoration: underline
+  text:
+    decoration:
+      color: $q_color
+      width: 0.85
+
+header:
+  font:
+    size: 10
+    style: semi_bold
+    color: #8e8e8e
+  height: 0.65in
+  text:
+    transform: uppercase
+  background:
+    color: #f8f8f8
+  line:
+    height: 1
+  verso:
+    left:
+      content: '{section-title}'
+    right:
+      content: ~
+  recto:
+    left:
+      content: ~
+    right:
+      content: '{section-title}'
+
+footer:
+  font:
+    size: 10
+    style: semi_bold
+    color: #8e8e8e
+  height: 0.5in
+  background:
+    color: #f8f8f8
+  line:
+    height: 1
+  verso:
+    left:
+      content: '{page-number}'
+    right:
+      content: ~
+  recto:
+    left:
+      content: ~
+    right:
+      content: '{page-number}'
+
+image:
+  align: center
+
+caption:
+  align: center
+  font:
+    color: #888888
+    size: 9
+
+table:
+  font:
+    size: floor($base_font_size * 0.92)
+  border:
+    width: $base_border_width
+    color: #dddddd
+  cell:
+    padding: [6, 8, 6, 8]
+  head:
+    font:
+      style: semi_bold
+    background:
+      color: #efefef
+    border:
+      bottom:
+        width: $base_border_width * 2.5
+  body:
+    stripe-background-color: #f8f8f8
+  foot:
+    background:
+      color: #f0f0f0
+  caption:
+    side: bottom
+
+footnotes:
+  font:
+    size: floor($base_font_size * 0.7)
+  item:
+    spacing: $outline_list_item_spacing / 2
+    
+role:    
+  green:
+    font_color: #00aa00    
+  yellow:
+    font_color: #FF9F00
+  red:
+    font_color: #FF0000   

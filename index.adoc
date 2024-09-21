@@ -1,0 +1,3 @@
+include::docs/_main.adoc[]
+:imagesdir: docs/images
+include::docs/_complete_documentation.adoc[]

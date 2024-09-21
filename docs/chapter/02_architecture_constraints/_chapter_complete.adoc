@@ -1,0 +1,13 @@
+= Randbedingungen
+
+|===
+
+| Aktuell werden die bestehenden Systeme durch RYZE-Digital betreut.
+
+| Es existieren bestehende Prozesse auf den Bestandssystemen, die übernommen werden müssen, wie die Warenlager-App.
+
+
+
+|===
+
+<<<

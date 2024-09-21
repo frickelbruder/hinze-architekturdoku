@@ -1,0 +1,43 @@
+= Stakeholder
+
+|===
+| Kontakt | Rolle im Projekt 
+
+| Frank Hinze +
+hinze.frank@digitales-handelsnetzwerk.de
+| Product owner Hinze Universum +
+Besitzer
+
+
+| Philipp Pra +
+pra.philipp@digitales-handelsnetzwerk.de
+| Projektmanagement +
+Schnittstelle + 
+Hinze < = > PERSPEQTIVE
+
+
+| Tobias Estl +
+estl.tobias@digitales-handelsnetzwerk.de
+| Product owner DHN
+
+
+| Alexander Bürner +
+ab@perspeqtive.de
+| Frontend-Entwickler +
+Controlling + Finance
+
+
+| Markus Holstein + 
+mh@perspeqtive.de
+| Backend-Entwickler +
+Softwarearchitekt
+
+
+| Holger Schneider +
+hs@perspeqtive.de
+| Backend-Entwickler
+
+
+|===
+
+<<<

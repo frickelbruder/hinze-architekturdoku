@@ -1,0 +1,8 @@
+= Aufgabenstellung
+
+Im Folgenden wird die Zielarchitektur der Hinze-Infrastruktur und der Services kurz dargestellt und der bestmögliche Weg, dieses Ziel zu erreichen. +
+Essentiell ist auch die schnelle Loslösung von der Abhängigkeit durch RYZE Digital.
+
+Ziel der Projekte ist zum einen die interne Digitalisierung und Automatisierung voranzutrieben und zu erneuern, sowie mit den online-Produkten die Digitalisierung in dem weitestgehend analogen Geschäftsumfeld Bodenbelagshändler/Raumausstatter vorantreiben.
+
+<<<

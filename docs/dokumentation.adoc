@@ -1,0 +1,8 @@
+include::_main.adoc[]
+:title-page:
+:title-page-background-image: image:title_logo.png[]
+:pdf-stylesdir: ../config/pdfTheme
+:pdf-fontsdir: ../config/fonts
+:pdf-theme: custom
+
+include::_complete_documentation.adoc[]

@@ -1,0 +1,5 @@
+= Hinze: _Zielbild & Roadmap_
+:author: © PERSPEQTIVE GmbH 2024
+:imagesdir: images
+:sectnums:
+:toc-title: Inhalt

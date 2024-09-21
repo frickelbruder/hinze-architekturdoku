@@ -1,0 +1,82 @@
+= Teilprojekte
+
+Da es Ziel ist, zum einen natürlich die Systeme wie PIM, Raumtrend-Hinze und das DHN zu modernisieren oder das neue Produkt "Produktkatalog" voranzutreiben und auf der anderen Seite die Projekte von RYZE-Digital abzuziehen, schlagen wir die folgende Reihenfolge der Projektumsetzung vor:
+
+== Entwicklung Raumtrend Hinze  
+Teil des Raumtrend Hinze-Projekts ist der Relaunch mit dem selben Feature-Umfang wie die bestehende Shop-Instanz allerdings basierend auf Sylius-Shop und Sulu-CMS. Dabei werden die Daten automatisiert aus dem PIM in den Shop importiert und ist somit Teil des Projektscopes. Außerdem wird bei Bedarf der Varnish-Cache-Server aufgesetzt um die nötige Performance zu gewährleisten. 
+
+.Stand nach dem Projekt "Raumtrend-Hinze-Relaunch"
+image::hinze-zielbild-nach-RTH.png[]
+
+<<<
+
+== Middleware
+Das Projekt Middleware umfasst die Integration der in OneSchema importierten Herstellerdaten und anschließenden Transformation und Aufbereitung in für das PIM-System benutzbare Daten. Weiterhin können die importierten Daten besonders um Bildinformationen angereichert werden, wie Helligkeit, Farbwerte und Co, sowie Bilduploads und Medienuploads.  
+
+.Stand nach dem Projekt "Middleware"
+image::hinze-zielbild-nach-Middleware.png[]
+
+<<<
+
+== Übernahme RYZE-Projekte
+Als nächstes sollte PERSPEQTIVE alle RYZE-Projekte übernehmen "as-is". Auf diese Weise sind Anpassungen an PIM und Co ohne Interaktion mit RYZE unkompliziert möglich. Das bedeutet auch, dass neue Händler im DHN sowie neue Farbwelten auf den Webseiten durch PERSPEQTIVE angelegt werden.
+
+.Stand nach dem Projekt "Übernahme"
+image::hinze-zielbild-nach-uebernahme.png[]
+
+<<<
+
+== Meilenstein RYZE-Abzug
+Ab diesem Zeitpunkt sollten keine Projekte mehr bei RYZE liegen. 
+
+== Warenlager-App
+Im gleichen Zuge sollte die Warenlager-App umgestellt werden, um auf das neue zentrale PIM zuzugreifen und die Bestände und ggf. weitere Informationen direkt vor Ort abrufen und aktualisieren zu können.
+
+.Stand nach dem Projekt "Übernahme DHN"
+image::hinze-zielbild-nach-App.png[]
+
+<<<
+
+== Room-Up (falls Migration geplant) andernfalls Übernahme
+Weiterhin muss anschließend die Room-Up-Instanz entweder gerelauncht werden oder die weitere zukünftige Verwendung von Room-Up geklärt sein, um die PIMs final konsolidieren zu können. 
+
+.Stand nach dem Projekt "Übernahme Room-Up"
+image::hinze-zielbild-nach-room-up.png[]
+
+<<<
+
+== DHN-Teil-Relaunch
+Da das DHN besonders Probleme bei der Skalierbarkeit für eine größere Anzahl Händler hat, muss hier das Basis-Konzept überarbeitet werden. Aus dem statischen Export müsste eine dynamische Webseite gebaut werden, die für performante Auslieferung hinter den bereits installierten Varnish-Cache oder Cloudflare gelegt werden muss. Hierbei können Komponenten wie Ausgabetemplates und Texte großteils übernommen, lediglich die Generierungslogik muss überarbeitet werden. +
+Vor der Umsetzung sollte hier ein kleiner Proof-of-Konzept aufgesetzt werden, um Performance, Stabilität und die Dauer für das Anlegen neuer Händler zu prüfen.
+
+.Stand nach dem Projekt "PIM-Konsolidierung"
+image::hinze-zielbild-nach-dhn.png[]
+
+<<<
+
+== Konsolidierung PIM-Systeme
+Nun können die PIM-Systeme konsolidiert werden.
+
+.Stand nach dem Projekt "PIM-Konsolidierung"
+image::hinze-zielbild-nach-pim.png[]
+
+<<<
+
+== Meilenstein freier Projektplanung
+Ab diesem Zeitpunkt sollten
+
+== Produktkatalog
+Der exakte Umfang des Projekts ist grob bekannt, muss aber noch definiert werden. Er lehnt sich grob an die Funktionalität des DHN an mit der erweiterten Möglichkeit den Materialo Raumplaner als Raumausstatter dazuzubuchen.
+
+<<<
+
+== Handelsplattform-Erweiterungen (optional)
+
+Anforderungen und Plattformen sind noch zu klären.
+
+== Integration Ladengeschäftssysteme (optional)
+
+Anforderungen und Plattformen sind noch zu klären.
+
+<<<
+

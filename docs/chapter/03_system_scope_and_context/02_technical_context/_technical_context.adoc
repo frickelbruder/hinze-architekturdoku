@@ -1,0 +1,60 @@
+= Technischer Kontext
+
+
+image:hinze-zielbild.png[]
+
+
+[cols="20%,80%"]
+.Systeme (Externe Services)
+|===
+|System | Bedeutung
+
+| OneSchema
+| OneSchema dient der komfortablen und schnellen Konsolidierung der Produktdaten der unterschiedlichen Hersteller. Diese werden im XLSX-Format geliefert und können über eine Oberfläche in das erwartete Zielformat transformiert werden
+
+| Handelsplattformen
+| Hierunter zählen Systeme wie Ebay Kleinanzeigen, Idealo und Otto. Produkte werden aus dem PIM auf die Handelsplattformen ausgespielt.
+
+| Materialo
+| Materialo bietet eine Raumplaner-Anwendung, die als Direkt-Einbindung in die Händlerseiten des Produktkatalogs eingebunden werden soll. Dabei soll auf einer Produktseite des Produktkatalogs bereits das richtige Produkt im Raumplaner vorbefüllt sein. 
+
+|===
+
+[cols="20%,80%"]
+.Systeme (Hinze-Universum)
+|===
+|System | Bedeutung
+
+| Middleware
+| Die Middleware nimmt die normalisierten Daten der importierten Herstellerdaten entgegen und ermöglicht die Anreicherung der Daten um weitere Attribute und Bilddaten pro Produkt. Zusätzlich können die eingelesenen Produktdaten durch die Bilddaten validiert werden, wie Helligkeit, Farbe und Co. 
+
+| Transformator
+| Der Transformator dient als Einstiegspunkt in OneSchema, so dass Hinze-Mitarbeiter über eine einfache Oberfläche den Importvorgang starten können. 
+
+| PIM
+| Sämtliche Produktinformationen wie Preise, Eigenschaften und Co werden letzlich hier verwaltet und gepflegt. Ebenso Lagerbestände, Bilder und andere Assets. Es ist das zentrale System, aus dem sich sämtliche Online-Systeme wie Raumtrend-Hinze, DHN und Produktkatalog Ihre Daten abholen.
+
+| DHN
+| Das Digitale Handelsnetzwerk ist eine Plattform, auf der sich Händler präsentieren können. Inhaltliche Daten zum Händler werden hier gepflegt. Die Produktdaten werden aus dem PIM geladen. (Als CMS-System ist Sulu geplant.)
+
+| DHN-Anmeldung
+| Für eine möglichst einfache Selbstregistrierung existiert aktuell eine einfache Wordpress-Installation mit einem Formular.
+
+| Raumtrend-Shop
+| Die Shop-Komponente, die alle Kaufanfragen, Käufe, den Warenkorb und die  Kundendaten aus dem raumtrend-hinze.de abliegt und abbildet. Als Shop-System kommt Sylius zum Einsatz.
+
+| Raumtrend-Website
+| Die Webseite bietet die Möglichkeit flexibel und schnell Kategorieseiten, Verteilseiten, SEO-Inhalte und beliebige weitere Inhalte auf der Webseite darzustellen und zu pflegen. Als CMS-System kommt Sulu zum Einsatz.
+
+| Produktkatalog
+| Der Produktkatalog bietet eine einfache Möglichkeit für alle Bodenbelagshändler und Raumausstatter einen Katalog Ihrer Produkte bereitzustellen. Diese können über eine Subdomain in die vorhandene Webseite des Händlers verlinkt werden. Zusätzlich kann im Produktkatalog durch den Händler die Option freigeschaltet werden, auf den Produktseiten den Materialo-Raumplaner zu integrieren.
+
+| Ladengeschäftssysteme
+| Die Systeme Odoo, Faktura, Lager, Kasse greifen auf das PIM zu, um Lagerbestände abzugleichen. Der Umfang ist bisher nicht definiert.
+
+| Varnish
+| Als zentraler Caching-Server kommt eine Varnish-Instanz zum Einsatz, die die Performance der einzelnen Seiten erhöht.
+
+|===
+
+<<<

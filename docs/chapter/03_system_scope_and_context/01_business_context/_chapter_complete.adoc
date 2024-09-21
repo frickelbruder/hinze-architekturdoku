@@ -1,0 +1,19 @@
+= Fachlicher Kontext
+
+//image::fachlicher-kontext.png[align=center]
+
+[cols="20%,80%"]
+.Akteure
+|===
+|Akteur | Bedeutung
+
+|===
+
+[cols="20%,80%"]
+.Systeme
+|===
+| System | Verantwortung
+
+|===
+
+<<<
